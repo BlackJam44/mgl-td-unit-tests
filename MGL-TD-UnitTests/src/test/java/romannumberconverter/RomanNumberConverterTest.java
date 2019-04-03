@@ -43,6 +43,6 @@ public class RomanNumberConverterTest {
     String in = null;
     int out = -1;
     assertThat(romannumberconverter.convertToInt(in))
-      .isEqualTo(out);
-  }
+      .isEqualTo(out); /* PARENTHESE SUPPRIMEE !!!!!!! */
+
 }
